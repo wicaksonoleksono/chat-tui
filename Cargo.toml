@@ -1,0 +1,23 @@
+[package]
+name = "chat_tui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Terminal UI
+crossterm = "0.26"
+ratatui = "0.20"
+# HTTP / HTTPS
+reqwest = { version = "0.11", features = ["blocking", "json", "rustls-tls"] }
+
+# Serde for JSON
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Anyhow for easy error handling
+anyhow = "1.0"
+
+# ThisError if you want specialized domain errors
+thiserror = "1.0"
+
+[dev-dependencies]
