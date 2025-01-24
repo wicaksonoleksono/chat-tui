@@ -175,7 +175,7 @@ Before submitting a PR:
 ---
 
 ## License
-This project is licensed under the [GNU v.3.0](LICENSE).
+This project is licensed under the [GPL-3.0 LICENSE](LICENSE).
 
 ---
 
